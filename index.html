@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <div class="box" id="logo">
+          <img src="images/logo2.png" alt="" width="90%" />
+        </div>
+        <div class="box" id="head">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#carts">Courses</a></li>
+            <li><a href="#footer">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="box" id="script">
+          <p>Learn  <span class="role"></span></p>
+        </div>
+
+        <div class="box" id="carts">
+          <p id="title">Special Courses:</p>
+       
+          <div class="cards">
+            <div class="cart">
+              <figure>
+                <img src="images/python logo.png" alt="" />
+                <hr color="red" size="5%" />
+              </figure>
+              <figcaption>only 2000/-(10% Discount)</figcaption>
+            </div>
+            <div class="cart">
+              <figure>
+                <img src="images/java.png" alt="" />
+                <hr color="red" size="5%" />
+              </figure>
+              <figcaption>only 2000/-(10% Discount)</figcaption>
+            </div>
+            <div class="cart">
+              <figure>
+                <img src="images/machine learning.jpeg" alt="" id="pen" />
+                <hr color="red" size="5%" />
+              </figure>
+              <figcaption> only 3000/- (20% Discount)</figcaption>
+            </div>
+            <div class="cart">
+              <figure>
+                <img src="images/data science.png" alt="" id="pen" />
+                <hr color="red" size="5%" />
+              </figure>
+              <figcaption>only 3000/- (25% Discount) </figcaption>
+            </div>
+            <div class="cart">
+              <figure>
+                <img src="images/web development.jpeg" alt="" id="pen" />
+                <hr color="red" size="5%" />
+              </figure>
+              <figcaption>only 3000/- (15% Discount)</figcaption>
+            </div>
+            <div class="cart">
+              <figure>
+                <img src="images/djongo.png" alt="" id="pen" />
+                <hr color="red" size="5%" />
+              </figure>
+              <figcaption>only 3000/-(5% Discount)</figcaption>
+            </div>
+            <div class="cart">
+              <figure>
+                <img src="images/phplogo.jpg" alt="" id="pen" />
+                <hr color="red" size="5%" />
+              </figure>
+              <figcaption>only 4000/- (5% Discount)</figcaption>
+            </div>
+            <div class="cart">
+              <figure>
+                <img src="images/cybersecurity.jpeg" alt="" id="pen" />
+                <hr color="red" size="5%" />
+              </figure>
+              <figcaption>only 4000/- (35% Discount)</figcaption>
+            </div>
+          </div>
+        </div>
+        <div class="box" id="footer">
+          <h2>Contact Us</h2>
+          <hr size="3%" color="pink" width="50%" />
+          <div class="links">
+            <a href="mailto:cource@gmail.com" target="_blank">
+              <img src="images/email.png" alt="" width="3.8%" />
+            </a>
+            <a href="https://www.facebook.com/" target="_blank"
+              ><img src="images/facebook.png" alt="" width="3.8%"
+            /></a>
+            <a href="https://www.whatsapp.com/" target="_blank"
+              ><img src="images/whatsapp.png" alt="" width="3.5%"
+            /></a>
+            <a href="https:www.instagram.com" target="_blank"
+              ><img src="images/instagram.png" alt="" width="4%"
+            /></a>
+          </div>
+
+          <span>&copy; Copyright.All Rights Reserved. </span>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script
+    src="https://kit.fontawesome.com/58a810656e.js"
+    crossorigin="anonymous"
+  ></script>
+  <script>
+    var typeData = new Typed(".role", {
+      strings: ["Python", "Java", "Machine Learning","Data Science","web development","Django","PHP","Cyber Security"],
+      loop: true,
+      typeSpeed: 100,
+      backSpeed: 80,
+      backDelay: 1000,
+    });
+  </script>
+</html>
